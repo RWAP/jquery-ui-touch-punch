@@ -12,7 +12,7 @@ As I said, Touch Punch is a hack. It [duck punches](http://en.wikipedia.org/wiki
 This code is dual licensed under the MIT or GPL Version 2 licenses and is therefore free to use, modify and/or distribute, but if you include Touch Punch in other software packages or plugins, please include an attribution to the original software and a link to [this repo](https://github.com/RWAP/jquery-ui-touch-punch).
 
 Fork: https://github.com/RWAP/jquery-ui-touch-punch
-RWAP Version (2019-2023)
+RWAP Version (2019-2024)
 The [original repo](https://github.com/furf/jquery-ui-touch-punch) was last updated in 2014.
 
 I have created a new fork which contains various suggested improvements to the code when it became clear that touch-punch does not work too well on Android devices, and actually stopped the close button on jquery-ui dialogs from working on some devices.
@@ -46,3 +46,15 @@ Just follow these simple steps to enable touch events in your jQuery UI app:
     ```
 
 _Tested on iPad, iPhone, Android and other touch-enabled mobile devices._
+
+## If it does not seem to work…
+
+Remember that Touch Punch is just allowing various key strokes (such as touch, cliuck and double click) to emulate mouse movements.  We do nothing with the underlying jQuery code.
+
+If it does not appear to work for you:
+
+1. Ensure that you are using the latest version of this plugin (and not the [original repo](https://github.com/furf/jquery-ui-touch-punch) ).
+
+2. Ensure that you have the latest versions of jQuery and jQuery UI linked in your webpage, BEFORE this code
+
+3. Ensure that the original code works as expected on desktop.
