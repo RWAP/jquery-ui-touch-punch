@@ -12,7 +12,9 @@ As I said, Touch Punch is a hack. It [duck punches](http://en.wikipedia.org/wiki
 This code is dual licensed under the MIT or GPL Version 2 licenses and is therefore free to use, modify and/or distribute, but if you include Touch Punch in other software packages or plugins, please include an attribution to the original software and a link to [this repo](https://github.com/RWAP/jquery-ui-touch-punch).
 
 Fork: https://github.com/RWAP/jquery-ui-touch-punch
+
 RWAP Version (2019-2024)
+
 The [original repo](https://github.com/furf/jquery-ui-touch-punch) was last updated in 2014.
 
 I have created a new fork which contains various suggested improvements to the code when it became clear that touch-punch does not work too well on Android devices, and actually stopped the close button on jquery-ui dialogs from working on some devices.
